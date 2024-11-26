@@ -1,0 +1,82 @@
+/* Style for general elements */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+}
+
+/* Hover effect for <a> links */
+a {
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+/* Input hover effect */
+input[type="text"], input[type="email"], input[type="number"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="number"]:hover, select:hover {
+    border-color: #4CAF50;
+}
+
+/* Submit button hover */
+input[type="submit"], input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the form */
+form fieldset {
+    border: 2px solid #4CAF50;
+    padding: 20px;
+}
+
+form legend {
+    font-weight: bold;
+    font-size: 1.2em;
+}
